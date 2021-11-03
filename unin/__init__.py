@@ -1,8 +1,8 @@
-#imports essential functions from the unin module.
-from duality import montecarlo
+#imports essential functions from the duality package.
 from duality import eoq
 from duality import hub
-from duality.misc import global_functions
+from duality.misc.global_functions import *
+from duality import montecarlo
 from misc._meta import (
 	__author__,
 	__copyright__,
