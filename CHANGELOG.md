@@ -1,0 +1,29 @@
+CHANGELOG
+==========
+
+0.0.1 (22/09/2021)
+- initial release.
+
+0.0.2 (25/09/2021)
+- core changes rework.
+
+0.0.3 (28/10/2021)
+- name tweak.
+
+0.0.4 (28/10/2021)
+- republish.
+
+0.0.5 (28/10/2021)
+- integrated functionality for Data manipulation from vandal Python package.
+
+0.0.6+ (28/10/2021)
+- various tests.
+
+0.0.11 (28/10/2021)
+- unin now matches the functionality of vandal 2.2.2
+
+0.0.12 (28/10/2021)
+- stability and dependency change.
+
+1.0.0
+- initial tests passed, first stable version.
