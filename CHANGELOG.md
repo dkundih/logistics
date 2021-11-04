@@ -28,5 +28,8 @@ CHANGELOG
 1.0.0 (04/11/2021)
 - initial tests passed, first stable version.
 
-1.0.1 (04/11/2021)
+1.0.1+ (04/11/2021)
 - merge test.
+
+1.0.2 (04/11/2021)
+- republish.

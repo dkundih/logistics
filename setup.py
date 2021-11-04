@@ -20,7 +20,7 @@ classifiers = [
  
 setup(
   name='unin',
-  version='1.0.1',
+  version='1.0.2',
   description='University North package.',
   long_description_content_type='text/markdown',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
