@@ -1,5 +1,5 @@
 #imports essential functions from the duality package.
-from duality import eoq
+from duality import eoq as eoq
 from duality import hub
 from duality.misc.global_functions import *
 from duality import montecarlo

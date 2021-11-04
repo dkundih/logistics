@@ -10,4 +10,4 @@ __credits__ = [
 
 ]
 __license__ = "Apache 2.0 License"
-__version__ = '1.0.0'
+__version__ = '1.0.1'

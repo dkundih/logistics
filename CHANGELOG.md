@@ -25,5 +25,8 @@ CHANGELOG
 0.0.12 (28/10/2021)
 - stability and dependency change.
 
-1.0.0
+1.0.0 (04/11/2021)
 - initial tests passed, first stable version.
+
+1.0.1 (04/11/2021)
+- merge test.

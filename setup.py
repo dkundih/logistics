@@ -20,7 +20,7 @@ classifiers = [
  
 setup(
   name='unin',
-  version='1.0.0',
+  version='1.0.1',
   description='University North package.',
   long_description_content_type='text/markdown',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
@@ -29,7 +29,7 @@ setup(
   url='http://github.com/dkundih/unin',
   license='Apache Software License', 
   classifiers=classifiers,
-  keywords='data science, machine learning, data manipulation, artificial intelligence, AI',
+  keywords='data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py',
   packages=find_packages(),
-  install_requires=['pandas >= 1.2.3', 'numpy >= 1.19.5', 'matplotlib >= 3.4.3', 'vandal>=2.2.2']
+  install_requires=['pandas >= 1.2.3', 'numpy >= 1.19.5', 'matplotlib >= 3.4.3', 'duality']
   )
