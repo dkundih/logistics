@@ -39,3 +39,6 @@ CHANGELOG
 
 1.0.4 (06/11/2021)
 - more information.
+
+1.0.5 (06/11/2021)
+- duality replaced with unin where applicable.

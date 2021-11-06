@@ -8,15 +8,15 @@ This is a connection to the main folder of the unin package.
 AVAILABLE MODULES IN THE PACKAGE:
 	HUB
 	---
-	duality.hub is a hub of data manipulation tools.
+	unin.hub is a hub of data manipulation tools.
 		print(help(unin.hub)) in order to see available features.
 	MONTECARLO
 	---
-	duality.MonteCarlo is a module for performing the Monte Carlo simulation over the defined data with a lot of useful features.
+	unin.MonteCarlo is a module for performing the Monte Carlo simulation over the defined data with a lot of useful features.
 		print(help(unin.MonteCarlo)) in order to see available features.
 	EOQ
 	---
-	duality.EOQ is a module for finding an Economic order quantity over the defined data with a lot of useful features.
+	unin.EOQ is a module for finding an Economic order quantity over the defined data with a lot of useful features.
 		print(help(unin.EOQ)) in order to see available features.
 
 '''
