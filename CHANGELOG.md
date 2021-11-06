@@ -33,3 +33,9 @@ CHANGELOG
 
 1.0.2 (04/11/2021)
 - republish.
+
+1.0.3 (06/11/2021)
+- setup.py redesign.
+
+1.0.4 (06/11/2021)
+- more information.
