@@ -18,6 +18,7 @@ classifiers = [
     'Topic :: Office/Business'
 ]
  
+#import current duality version. 
 from unin.misc._meta import __version__
 
 setup(
