@@ -27,7 +27,7 @@ from duality.hub import hub
 from duality.hub.hub import *
 from duality import MonteCarlo
 
-#imports meta data from unin package.
+#imports meta data from the unin package.
 from unin.misc._meta import (
 	__author__,
 	__copyright__,
