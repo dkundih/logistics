@@ -42,3 +42,6 @@ CHANGELOG
 
 1.0.5 (06/11/2021)
 - duality replaced with unin where applicable.
+
+1.0.6 (14/11/2021)
+- setup.py redefined with metadata.
