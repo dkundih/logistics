@@ -56,14 +56,14 @@ sys.dont_write_bytecode = True
 
 #meta data imports from the unin library.
 from unin.misc._meta import (
-	__author__,
-	__copyright__,
-	__credits__,
-	__license__,
-	__version__,
-	__documentation__,
-	__contact__,
-	__donate__,
+    __author__,
+    __copyright__,
+    __credits__,
+    __license__,
+    __version__,
+    __documentation__,
+    __contact__,
+    __donate__,
 )
 
 #object and module imports.
@@ -85,7 +85,7 @@ from duality.hub.toolkit import (
 
 #all relevant contents.
 __all__ = [
-	random_value,
+    random_value,
     random_pool,
     split_values,
     join_values,
@@ -93,7 +93,7 @@ __all__ = [
     list_sort,
     index_sort,
     auto_sort,
-	toolkit,
-	MonteCarlo,
-	EOQ,
+    toolkit,
+    MonteCarlo,
+    EOQ,
 ]
