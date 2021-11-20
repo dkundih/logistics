@@ -27,7 +27,6 @@ classifiers = [
     'Topic :: Office/Business :: Financial :: Accounting',
     'Topic :: Office/Business :: Financial :: Point-Of-Sale',
     'Topic :: Office/Business :: Financial :: Spreadsheet'
-
 ]
  
 #import current duality version. 
@@ -36,7 +35,7 @@ from unin.misc._meta import __version__
 setup(
   name = 'unin',
   version = __version__,
-  description = 'University North package.',
+  description = 'University North library.',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
@@ -53,5 +52,10 @@ setup(
   classifiers = classifiers,
   keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py, duality.py',
   packages = find_packages(),
-  install_requires = ['pandas >= 1.2.3', 'numpy >= 1.19.5', 'matplotlib >= 3.4.3', 'duality']
-  )
+  install_requires = [
+    'pandas >= 1.2.3',
+    'numpy >= 1.19.5',
+    'matplotlib >= 3.4.3',
+    'duality>= 3.3.6',
+]
+)

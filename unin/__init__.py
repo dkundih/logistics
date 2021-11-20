@@ -1,33 +1,60 @@
 '''
-NOTE: unin package runs on top of the duality package, in order to see more about the actual code visit the duality package repositories at:
+
+NOTE: unin library runs on top of the duality library, in order to see more about the actual code visit the duality library repositories at:
 	https://github.com/dkundih/duality
 	https://pypi.org/project/duality
 
-This is a connection to the main folder of the unin package.
+unin - University North library that runs on top of the duality library.
+=====================================================================
 
-AVAILABLE MODULES IN THE PACKAGE:
-	HUB
-	---
-	unin.hub is a hub of data manipulation tools.
-		print(help(unin.hub)) in order to see available features.
-	MONTECARLO
-	---
+This is a connection to the main folder of the unin library.
+
+AVAILABLE FEATURES IN THE LIBRARY:
+
+	TOOLKIT (MODULE FUNCTIONS)
+	--------------------------
+
+	set of available data manipulation functions from the unin library.
+		print(help(any_function_listed_below)) in order to see the function details or print(help(unin.toolkit)) for all functions at once.
+
+		FUNCTIONS (ACCESSIBLE DIRECTLY FROM THE LIBRARY)
+		---------
+
+		random_value(mean, st_dev, **rounded) - gives a random value of mean and standard deviation inputed, if rounded = 'y', value will be rounded.
+
+        random_pool(mean, st_dev, pool_size, **rounded) - gives random values of mean and standard deviation inputed for the amount of values defined in the pool size, if rounded = 'y', values will be rounded.
+
+        split_values(data, split_method) - splits the data using a split method character.
+
+        join_values(data, join_method) - joins the data using a join metod character.
+
+        replace_values(data, replaced_value, replacing_value) - replaces a defined value with a desired value.
+
+        list_sort(data, array) - manually sorts data depending on defined array of indexes.
+
+        index_sort(data, split_method, index_array) - sorts the indicies in a list of values based on the index array defined as [x,x,x].
+
+        auto_sort(data, split_method, trigger = lambda x: x[0]) - automatically splits all values in a list and sorts them based on the added trigger as lambda x: [x[i], x[i]] and joins them back together.
+
+	MONTECARLO (OBJECT)
+	-------------------
+
 	unin.MonteCarlo is a module for performing the Monte Carlo simulation over the defined data with a lot of useful features.
 		print(help(unin.MonteCarlo)) in order to see available features.
-	EOQ
-	---
+
+	EOQ (OBJECT)
+	------------
+	
 	unin.EOQ is a module for finding an Economic order quantity over the defined data with a lot of useful features.
 		print(help(unin.EOQ)) in order to see available features.
 
 '''
 
-#imports essential functions from the duality package.
-from duality import EOQ
-from duality.hub import hub
-from duality.hub.hub import *
-from duality import MonteCarlo
+#ignore __pycache__ from forming inside the library directory.
+import sys
+sys.dont_write_bytecode = True
 
-#imports meta data from the unin package.
+#meta data imports from the unin library.
 from unin.misc._meta import (
 	__author__,
 	__copyright__,
@@ -36,5 +63,37 @@ from unin.misc._meta import (
 	__version__,
 	__documentation__,
 	__contact__,
-	__donate__
+	__donate__,
 )
+
+#object and module imports.
+from duality.hub import toolkit
+from duality.objects.eoq import EOQ
+from duality.objects.montecarlo import MonteCarlo
+
+#hub imports.
+from duality.hub.toolkit import (
+    random_value,
+    random_pool,
+    split_values,
+    join_values,
+    replace_values,
+    list_sort,
+    index_sort,
+    auto_sort,
+)
+
+#all relevant contents.
+__all__ = [
+	random_value,
+    random_pool,
+    split_values,
+    join_values,
+    replace_values,
+    list_sort,
+    index_sort,
+    auto_sort,
+	toolkit,
+	MonteCarlo,
+	EOQ,
+]
