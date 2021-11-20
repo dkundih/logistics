@@ -49,3 +49,6 @@ CHANGELOG
 1.0.7 (20/11/2021)
 - unin package becomes unin library.
 - duality >= 3.3.6 library changes applied to unin library.
+
+1.0.8 (20/11/2021)
+- code reconstruction.
