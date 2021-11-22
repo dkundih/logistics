@@ -48,6 +48,12 @@ AVAILABLE FEATURES IN THE LIBRARY:
 	unin.EOQ is a module for finding an Economic order quantity over the defined data with a lot of useful features.
 		print(help(unin.EOQ)) in order to see available features.
 
+    Dijkstra (OBJECT)
+	-----------------
+	
+	unin.Dijkstra is a module for finding the optimal route between the defined nodes from the place of origin to the final destination.
+		print(help(unin.Dijkstra)) in order to see available features.
+
 '''
 
 #ignore __pycache__ from forming inside the library directory.
@@ -70,6 +76,7 @@ from unin.misc._meta import (
 from duality.hub import toolkit
 from duality.objects.eoq import EOQ
 from duality.objects.montecarlo import MonteCarlo
+from duality.objects.dijkstra import Dijkstra
 
 #hub imports.
 from duality.hub.toolkit import (
@@ -96,4 +103,5 @@ __all__ = [
     toolkit,
     MonteCarlo,
     EOQ,
+    Dijkstra,
 ]

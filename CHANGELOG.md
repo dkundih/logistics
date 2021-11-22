@@ -52,3 +52,7 @@ CHANGELOG
 
 1.0.8 (20/11/2021)
 - code reconstruction.
+
+1.1.0 (20/11/2021)
+- introduced duality.Dijkstra algorithm feature.
+- duality >= 3.4.2 library changes applied to unin library in order to enable the feature.
