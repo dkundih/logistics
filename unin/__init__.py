@@ -48,7 +48,7 @@ AVAILABLE FEATURES IN THE LIBRARY:
 	unin.EOQ is a module for finding an Economic order quantity over the defined data with a lot of useful features.
 		print(help(unin.EOQ)) in order to see available features.
 
-    Dijkstra (OBJECT)
+	Dijkstra (OBJECT)
 	-----------------
 	
 	unin.Dijkstra is a module for finding the optimal route between the defined nodes from the place of origin to the final destination.
