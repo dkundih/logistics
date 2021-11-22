@@ -56,3 +56,7 @@ CHANGELOG
 1.1.0 (20/11/2021)
 - introduced duality.Dijkstra algorithm feature.
 - duality >= 3.4.2 library changes applied to unin library in order to enable the feature.
+
+1.1.1 (20/11/2021)
+- upstream/downstream fix.
+- duality >= 3.4.3 library changes applied to unin library.
