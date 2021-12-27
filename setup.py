@@ -35,7 +35,7 @@ from duality.misc._meta import __version__
 setup(
   name = 'duality',
   version = __version__,
-  description = 'Decorator tools for vandal package.',
+  description = 'Decorator functions for vandal library.',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
@@ -50,9 +50,10 @@ setup(
     'Source Code': 'https://github.com/dkundih/duality/tree/master/duality'
   },
   classifiers = classifiers,
-  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, duality, duality-py, duality.py',
+  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py, duality.py, vandal.py, vandal-py',
   packages = find_packages(),
   install_requires = [
     'openpyxl',
+    'vandal >= 3.0.0'
 ]
   )

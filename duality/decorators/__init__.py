@@ -1,4 +1,4 @@
-from .particles import (
+from duality.decorators.particles import (
     record,
     track,
 )
