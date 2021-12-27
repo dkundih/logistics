@@ -1,4 +1,4 @@
-# Stores menu options over functions and class methods and lists all options.
+# stores menu options over functions and class methods and lists all options.
 class record:
     menu = []
 
@@ -28,7 +28,7 @@ class record:
                 return decorator
             return wrapper
 
-# Tracks function behaviuor and stores it into a JSON file.
+# tracks function behaviuor and stores it into a JSON file.
 class track:
     def entry(func_name):
         def log(func):
