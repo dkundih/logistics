@@ -30,32 +30,29 @@ classifiers = [
 ]
  
 #import current duality version. 
-from unin.misc._meta import __version__
+from duality.misc._meta import __version__
 
 setup(
-  name = 'unin',
+  name = 'duality',
   version = __version__,
-  description = 'University North library.',
+  description = 'Decorator tools for vandal package.',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
   author_email = 'kundihdavid@gmail.com',
   maintainer = 'David Kundih',
   maintainer_email = 'kundihdavid@gmail.com',
-  url = 'http://github.com/dkundih/unin',
-  download_url = f'https://github.com/dkundih/unin/archive/refs/tags/v{__version__}.tar.gz',
+  url = 'http://github.com/dkundih/duality',
+  download_url = f'https://github.com/dkundih/duality/archive/refs/tags/v{__version__}.tar.gz',
   license = 'Apache Software License', 
   project_urls = {
-    'Documentation': 'https://github.com/dkundih/unin/blob/master/README.md',
-    'Source Code': 'https://github.com/dkundih/unin/tree/master/unin'
+    'Documentation': 'https://github.com/dkundih/duality/blob/master/README.md',
+    'Source Code': 'https://github.com/dkundih/duality/tree/master/duality'
   },
   classifiers = classifiers,
-  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py, duality.py',
+  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, duality, duality-py, duality.py',
   packages = find_packages(),
   install_requires = [
-    'pandas >= 1.2.3',
-    'numpy >= 1.19.5',
-    'matplotlib >= 3.4.3',
-    'duality>= 3.4.3',
+    'openpyxl',
 ]
   )
