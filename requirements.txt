@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 vandal
 duality
+=======
+vandal >= 3.0.0
+openpyxl
+>>>>>>> 6cc82aea0ae12eb3a4566a418fe3a46a647575fe

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 cd C:\Users\kundi\Sphere\vandal
+=======
+cd C:\Users\kundi\Sphere\duality
+>>>>>>> 6cc82aea0ae12eb3a4566a418fe3a46a647575fe
 python setup.py sdist
 twine upload dist/*
