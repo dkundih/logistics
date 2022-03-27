@@ -60,3 +60,6 @@ CHANGELOG
 1.1.1 (20/11/2021)
 - upstream/downstream fix.
 - duality >= 3.4.3 library changes applied to unin library.
+
+1.1.2 (27/03/2022)
+- now fetches the vandal and duality contents.
