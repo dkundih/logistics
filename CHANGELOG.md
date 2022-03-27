@@ -248,12 +248,6 @@ CHANGELOG
 
 3.4.3 (22/11/2021)
 - upstream/downstream fix.
-<<<<<<< HEAD
-- duality >= 3.4.3 library changes applied to unin library.
-
-1.1.2 (27/03/2022)
-- now fetches the vandal and duality contents.
-=======
 
 3.4.4 (01/12/2021)
 - CLI environment setup.
@@ -329,4 +323,3 @@ CHANGELOG
 4.0.0 (27/12/2021)
 - previous versions of duality library transfered into the vandal package.
 - duality is now a decorator package for vandal package.
->>>>>>> 6cc82aea0ae12eb3a4566a418fe3a46a647575fe

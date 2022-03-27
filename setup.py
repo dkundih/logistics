@@ -29,39 +29,31 @@ classifiers = [
     'Topic :: Office/Business :: Financial :: Spreadsheet'
 ]
  
-#import current duality version. 
-from duality.misc._meta import __version__
+#import current unin version. 
+from unin.misc._meta import __version__
 
 setup(
-  name = 'duality',
+  name = 'unin',
   version = __version__,
-  description = 'Decorator functions for vandal library.',
+  description = 'University North library..',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
   author_email = 'kundihdavid@gmail.com',
   maintainer = 'David Kundih',
   maintainer_email = 'kundihdavid@gmail.com',
-  url = 'http://github.com/dkundih/duality',
-  download_url = f'https://github.com/dkundih/duality/archive/refs/tags/v{__version__}.tar.gz',
+  url = 'http://github.com/dkundih/unin',
+  download_url = f'https://github.com/dkundih/unin/archive/refs/tags/v{__version__}.tar.gz',
   license = 'Apache Software License', 
   project_urls = {
-    'Documentation': 'https://github.com/dkundih/duality/blob/master/README.md',
-    'Source Code': 'https://github.com/dkundih/duality/tree/master/duality'
+    'Documentation': 'https://github.com/dkundih/unin/blob/master/README.md',
+    'Source Code': 'https://github.com/dkundih/unin/tree/master/unin'
   },
   classifiers = classifiers,
-<<<<<<< HEAD
-  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, vandal, north, sjever',
+  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, sjever, north, duality, duality-py, duality.py, vandal.py, vandal-py',
   packages = find_packages(),
   install_requires = [
     'vandal',
     'duality',
-=======
-  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py, duality.py, vandal.py, vandal-py',
-  packages = find_packages(),
-  install_requires = [
-    'vandal >= 3.0.0',
-    'openpyxl',
->>>>>>> 6cc82aea0ae12eb3a4566a418fe3a46a647575fe
 ]
   )
