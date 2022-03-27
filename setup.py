@@ -35,7 +35,7 @@ from unin.misc._meta import __version__
 setup(
   name = 'unin',
   version = __version__,
-  description = 'University North library..',
+  description = 'University North library.',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
