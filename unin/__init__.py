@@ -4,7 +4,7 @@ NOTE: unin library runs on top of the vandal library, in order to see more about
 	https://github.com/dkundih/vandal
     https://pypi.org/project/vandal
 
-unin - University North library that runs on top of the duality library.
+unin - University North library that runs on top of the vandal library.
 =====================================================================
 
 This is a connection to the main folder of the unin library.
