@@ -9,3 +9,6 @@ CHANGELOG
 
 0.0.3 (07/06/2022)
 - transformed into Vandal framework logistics package.
+
+0.0.4 (07/06/2022)
+- bug fix.

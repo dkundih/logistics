@@ -47,7 +47,7 @@ __all__ = [
     'AnyArrayAlike',
     'AnyVectorAlike',
     'AnyType',
-    Meta,
+    'Meta',
 ]
 
 # all available types.
@@ -77,5 +77,5 @@ __types__ = [
 
 # metaclass.
 __metaclass__ = [
-    Meta,
+    'Meta',
 ]
