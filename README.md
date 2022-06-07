@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **Logistics Python Package**
 
 ![vandal-header](https://raw.githubusercontent.com/dkundih/vandal/master/.logistics/vandal.jpg)
@@ -24,10 +25,22 @@ Use permitted according to the terms of use and conditions set by the attached l
 **Example of use**
 
 Visit my Data Library at https://github.com/dkundih/DataLibrary in order to see the demonstration of use in practical examples.
+=======
+unin
+=====
+
+University North python library.
+Use permitted according to the terms of use and conditions set by the attached license.
+
+**Example of use**
+
+Visit private Data Library at https://github.com/dkundih/DataLibrary in order to see the demonstration of use in practical examples.
+>>>>>>> bfd444a3467cfb6886f2a4cba1b6f15b769d5b14
 
 **Installation**
 
 ```sh
+<<<<<<< HEAD
 # using pip.
 pip install vandal
 ```
@@ -38,3 +51,14 @@ pip install vandal
 # using pip.
 pip install vandal -r requirements.txt
 ```
+=======
+# using pip
+pip install unin
+```
+**Import**
+
+```sh
+# for Python environment
+import unin
+```
+>>>>>>> bfd444a3467cfb6886f2a4cba1b6f15b769d5b14

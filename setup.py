@@ -29,8 +29,13 @@ classifiers = [
     'Topic :: Office/Business :: Financial :: Spreadsheet'
 ]
  
+<<<<<<< HEAD
 #import current duality version. 
 from logistics.misc._meta import __version__
+=======
+#import current unin version. 
+from unin.misc._meta import __version__
+>>>>>>> bfd444a3467cfb6886f2a4cba1b6f15b769d5b14
 
 setup(
   name = 'logistics',
@@ -50,8 +55,16 @@ setup(
     'Source Code': 'https://github.com/dkundih/unin/tree/master/unin'
   },
   classifiers = classifiers,
+<<<<<<< HEAD
   keywords = 'data science, machine learning, data manipulation, artificial intelligence, logistics, AI, unin, vandal, vandal-py, vandal.py, duality, duality-py, duality.py',
   packages = find_packages(),
   install_requires = [
+=======
+  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, sjever, north, duality, duality-py, duality.py, vandal.py, vandal-py',
+  packages = find_packages(),
+  install_requires = [
+    'vandal',
+    'duality',
+>>>>>>> bfd444a3467cfb6886f2a4cba1b6f15b769d5b14
 ]
   )
