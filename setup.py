@@ -30,12 +30,12 @@ classifiers = [
 ]
  
 #import current duality version. 
-from unin.misc._meta import __version__
+from logistics.misc._meta import __version__
 
 setup(
-  name = 'unin',
+  name = 'logistics',
   version = __version__,
-  description = 'University North library.',
+  description = 'Vandal framework logistics library.',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
@@ -50,12 +50,8 @@ setup(
     'Source Code': 'https://github.com/dkundih/unin/tree/master/unin'
   },
   classifiers = classifiers,
-  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py, duality.py',
+  keywords = 'data science, machine learning, data manipulation, artificial intelligence, logistics, AI, unin, vandal, vandal-py, vandal.py, duality, duality-py, duality.py',
   packages = find_packages(),
   install_requires = [
-    'pandas >= 1.2.3',
-    'numpy >= 1.19.5',
-    'matplotlib >= 3.4.3',
-    'duality>= 3.4.3',
 ]
   )
