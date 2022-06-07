@@ -1,3 +1,3 @@
-cd C:\Users\kundi\Sphere\unin
+cd C:\Users\kundi\Sphere\logistics
 python setup.py sdist
 twine upload dist/*
