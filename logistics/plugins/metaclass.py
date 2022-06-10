@@ -23,6 +23,7 @@ from logistics.plugins.types import (
     AnyType,
 )
 
+# package.
 class Meta(type):
 
     '''
