@@ -23,8 +23,11 @@ from logistics.plugins.types import (
     AnyType,
 )
 
-# makes multiple instances of the object available.
 class Meta(type):
+
+    '''
+    * makes multiple instances of the object available.
+    '''
 
     def __call__(
         self, 
