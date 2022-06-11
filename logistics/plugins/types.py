@@ -14,6 +14,8 @@ ListType: VandalType = list # list.
 TupleType: VandalType = tuple # tuple.
 DictionaryType: VandalType = dict # dictionary.
 BooleanType: VandalType = bool # bool.
+FilePathType: VandalType = 'File path.' # file path.
+SpecialType: VandalType = 'Special data type that does not fit in any of the categories.' # data type that does not fit in any of the categories.
 
 # structured types.
 NumberVector: VandalType = List[float] # one-dimensional vector of integers or floats.

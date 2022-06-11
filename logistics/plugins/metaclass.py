@@ -12,6 +12,8 @@ from logistics.plugins.types import (
     TupleType,
     DictionaryType,
     BooleanType,
+    FilePathType,
+    SpecialType,
     NumberVector,
     StringVector,
     StringDictionary,

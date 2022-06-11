@@ -12,3 +12,7 @@ CHANGELOG
 
 0.0.4 (07/06/2022)
 - bug fix.
+
+0.0.5 (11/06/2022)
+- added FilePathType and SpecialType.
+- added multiple folders to aid testing and development.
