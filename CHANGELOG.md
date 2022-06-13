@@ -21,3 +21,6 @@ CHANGELOG
 - Manifesto added.
 - special methods redefined.
 - PEP8 alignments.
+
+0.0.7 (13/06/2022)
+- added meta data.
