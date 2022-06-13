@@ -55,7 +55,7 @@ __all__ = [
 ]
 
 # all available types.
-__types__ = [
+types = [
     VandalType,
     IntegerType,
     FloatType,
@@ -82,6 +82,6 @@ __types__ = [
 ]
 
 # metaclass.
-__metaclass__ = [
+metaclass = [
     'Meta',
 ]
