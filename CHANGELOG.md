@@ -24,3 +24,13 @@ CHANGELOG
 
 0.0.7 (13/06/2022)
 - added meta data.
+
+0.0.8 (28/07/2022)
+- redefined the package structure.
+- added VandalTypes function to print all the types.
+
+0.0.9 (28/07/2022)
+- quick bug fix.
+
+0.0.10 (28/07/2022)
+- resolved VandalTypes issues.

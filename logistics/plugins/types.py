@@ -1,5 +1,7 @@
+# dependencies import.
 from typing import Dict, List, Union
 
+# prototype.
 VandalType = 'Specific Input / Output vandal type of supported data.'
 
 # generic types.
@@ -29,3 +31,32 @@ NumberArrayAlike: VandalType = Union[List[NumberVector], List[DictionaryVector]]
 AnyArrayAlike: VandalType = Union[List[NumberVector], List[StringVector], List[StringDictionary], List[DictionaryVector]] # any =>2 dimensional type.
 AnyVectorAlike: VandalType = Union[NumberVector, StringVector, StringDictionary, DictionaryVector] # any one-dimensional type.
 AnyType: VandalType = Union[IntegerType, FloatType, NumberType, StringType, ListType, TupleType, DictionaryType, NumberVector, StringVector, StringDictionary, DictionaryVector, NumberVectorAlike, NumberArrayAlike, AnyVectorAlike, AnyArrayAlike] # any type.
+
+# all available types.
+def VandalTypes():
+    info = [
+    'VandalType',
+    'IntegerType',
+    'FloatType',
+    'NumberType',
+    'ReturnType',
+    'PrintType',
+    'GraphType',
+    'StringType',
+    'ListType',
+    'TupleType',
+    'DictionaryType',
+    'BooleanType',
+    'FilePathType',
+    'SpecialType',
+    'NumberVector',
+    'StringVector',
+    'StringDictionary',
+    'DictionaryVector',
+    'NumberVectorAlike',
+    'NumberArrayAlike',
+    'AnyArrayAlike',
+    'AnyVectorAlike',
+    'AnyType',
+]
+    return info

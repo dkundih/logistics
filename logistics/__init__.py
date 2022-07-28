@@ -3,7 +3,7 @@
 logistics - vandal framework logistics package.
 =====================================================================
 
-This is a connection to the __init__ file of the vandal library.
+This is a connection to the __init__ file of the logistics library.
 
 AVAILABLE FEATURES IN THE LIBRARY:
 
@@ -11,6 +11,11 @@ AVAILABLE FEATURES IN THE LIBRARY:
     --------------------------
     set of available type objects in a module.
         print(help(logistics.plugins.types)) in order to see the function details.
+
+    VANDALTYPES (TYPE OBJECT LISTING FUNCTION)
+    ------------------------
+    prints the list of available types.
+        cast logistics.VandalTypes() to see available types.
 
     Meta (OBJECT)
     -------------------
@@ -36,33 +41,9 @@ from logistics.misc._meta import (
 )
 
 # plugin types.
-from logistics.plugins.types import (
-    VandalType,
-    IntegerType,
-    FloatType,
-    NumberType,
-    ReturnType,
-    PrintType,
-    GraphType,
-    StringType,
-    ListType,
-    TupleType,
-    DictionaryType,
-    BooleanType,
-    FilePathType,
-    SpecialType,
-    NumberVector,
-    StringVector,
-    StringDictionary,
-    DictionaryVector,
-    NumberVectorAlike,
-    NumberArrayAlike,
-    AnyArrayAlike,
-    AnyVectorAlike,
-    AnyType,
-)
+from logistics.plugins.types import *
 
-# imports relevant contents.
+# metaclass import.
 from logistics.plugins.metaclass import Meta
 
 # all relevant contents.
@@ -90,34 +71,13 @@ __all__ = [
     'AnyArrayAlike',
     'AnyVectorAlike',
     'AnyType',
+    'VandalTypes'
     'Meta',
 ]
 
 # all available types.
-types = [
-    VandalType,
-    IntegerType,
-    FloatType,
-    NumberType,
-    ReturnType,
-    PrintType,
-    GraphType,
-    StringType,
-    ListType,
-    TupleType,
-    DictionaryType,
-    BooleanType,
-    FilePathType,
-    SpecialType,
-    NumberVector,
-    StringVector,
-    StringDictionary,
-    DictionaryVector,
-    NumberVectorAlike,
-    NumberArrayAlike,
-    AnyArrayAlike,
-    AnyVectorAlike,
-    AnyType,
+VandalTypes = [
+    'VandalTypes',
 ]
 
 # metaclass.
