@@ -75,11 +75,6 @@ __all__ = [
     'Meta',
 ]
 
-# all available types.
-VandalTypes = [
-    'VandalTypes',
-]
-
 # metaclass.
 metaclass = [
     'Meta',

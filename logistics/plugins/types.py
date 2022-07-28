@@ -33,8 +33,7 @@ AnyVectorAlike: VandalType = Union[NumberVector, StringVector, StringDictionary,
 AnyType: VandalType = Union[IntegerType, FloatType, NumberType, StringType, ListType, TupleType, DictionaryType, NumberVector, StringVector, StringDictionary, DictionaryVector, NumberVectorAlike, NumberArrayAlike, AnyVectorAlike, AnyArrayAlike] # any type.
 
 # all available types.
-def VandalTypes():
-    info = [
+VandalTypes = [
     'VandalType',
     'IntegerType',
     'FloatType',
@@ -59,4 +58,3 @@ def VandalTypes():
     'AnyVectorAlike',
     'AnyType',
 ]
-    return info

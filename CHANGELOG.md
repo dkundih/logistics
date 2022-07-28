@@ -34,3 +34,6 @@ CHANGELOG
 
 0.0.10 (28/07/2022)
 - resolved VandalTypes issues.
+
+0.0.11 (28/07/2022)
+- VandalTypes now assigned in the types module instead of init.
