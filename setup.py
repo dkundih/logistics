@@ -53,5 +53,6 @@ setup(
   keywords = 'data science, machine learning, data manipulation, artificial intelligence, logistics, AI, unin, vandal, vandal-py, vandal.py, duality, duality-py, duality.py',
   packages = find_packages(),
   install_requires = [
+    'colorama',
 ]
   )

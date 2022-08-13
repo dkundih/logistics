@@ -37,3 +37,6 @@ CHANGELOG
 
 0.0.11 (28/07/2022)
 - VandalTypes now assigned in the types module instead of init.
+
+0.0.12 (13/08/2022)
+- migrated paint_text from duality and vandal to logistics.

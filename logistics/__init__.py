@@ -11,6 +11,10 @@ AVAILABLE FEATURES IN THE LIBRARY:
     --------------------------
     set of available type objects in a module.
         print(help(logistics.plugins.types)) in order to see the function details.
+        
+    paint_text (FUNCTION)
+    ---------------------
+        print(help(logistics.plugins.coloring)) in order to see the function details.
 
     VANDALTYPES (TYPE OBJECT LISTING FUNCTION)
     ------------------------
@@ -28,6 +32,17 @@ AVAILABLE FEATURES IN THE LIBRARY:
 import sys
 sys.dont_write_bytecode = True
 
+# imports coloring.
+from colorama import (
+    Fore,
+    Back,
+    Style,
+    init,
+)
+
+# initializes coloring.
+init()
+
 # meta data imports from the vandal library.
 from logistics.misc._meta import (
     __author__,
@@ -41,6 +56,9 @@ from logistics.misc._meta import (
 )
 
 # plugin types.
+from logistics.plugins.types import *
+
+# plugin coloring.
 from logistics.plugins.types import *
 
 # metaclass import.
@@ -73,6 +91,7 @@ __all__ = [
     'AnyType',
     'VandalTypes'
     'Meta',
+    'paint_text',
 ]
 
 # metaclass.
