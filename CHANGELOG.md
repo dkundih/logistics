@@ -40,3 +40,6 @@ CHANGELOG
 
 0.0.12 (13/08/2022)
 - migrated paint_text from duality and vandal to logistics.
+
+0.0.15 (21/08/2022) 
+- withdrawal of failed changes.
