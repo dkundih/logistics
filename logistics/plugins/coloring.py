@@ -10,7 +10,7 @@ from colorama import (
 # initializes coloring.
 init()
 
-# paints the text with a desired color ('fr', 'fg', 'fb', 'fk', 'fc', 'fm', 'fy', 'br', 'bg', 'bb', 'bk', 'bc', 'bm', 'by').
+# paints the text with a desired color ('Fr', 'Fg', 'Fb', 'Fk', 'Fc', 'Fm', 'Fy', 'Fw', 'Br', 'Bg', 'Bb', 'Bk', 'Bc', 'Bm', 'By', 'Bw').
 def paint_text(
         text : StringType,
         color : StringType,
@@ -34,6 +34,7 @@ def paint_text(
             'Fm' : Fore.MAGENTA,
             'Fy' : Fore.YELLOW,
             'Fc' : Fore.CYAN,
+            'Fw' : Fore.WHITE,
             
         # Back coloring.
             'Br' : Back.RED,
@@ -43,6 +44,7 @@ def paint_text(
             'Bm' : Back.MAGENTA,
             'By' : Back.YELLOW,
             'Bc' : Back.CYAN,
+            'Bw' : Back.WHITE,
             }
         
         if print_trigger == True:
